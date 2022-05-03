@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    height: 62px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    margin-left: 100vh;
+    gap: 40px;
+
+}   
+
+nav #nav-1 {
+    
+   
+}
+
+section {
+    background-image: url("777-main.jpg");
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    color: #FFFFFF;
+    
+}
+
+h1 {
+    font-family: 'Quantico', sans-serif;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Quantico', sans-serif;
+}
+p {
+    font-family: 'Quantico', sans-serif;
+}
+
+
+
+
