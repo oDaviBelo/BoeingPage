@@ -28,7 +28,7 @@ nav #nav-1 {
    
 }
 
-section {
+.main-section {
     background-image: url("777-main.jpg");
     height: 92vh;
     display: flex;
@@ -51,6 +51,91 @@ p {
     font-family: 'Quantico', sans-serif;
 }
 
+
+.minor-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.modelstitle {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.firstlineblock {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+
+}
+
+.firstlink {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 10px;
+    height: 35px;
+    width: 150px;
+    background-color: #eff0f0;
+    color: #5f6a72; 
+    cursor: pointer;
+}
+
+.stsa {
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+
+.stsmax {
+    height: 200px;
+    width: 393px;
+    
+}
+
+
+
+
+.c17 {
+    height: 200px;
+    width: 393px;
+    
+}
+
+.secondlineblock {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+
+}
+
+
+.sss {
+    height: 200px;
+    width: 393px;
+    
+}
+
+
+
+.ses {
+    height: 200px;
+    width: 393px;
+   
+}
 
 
 
