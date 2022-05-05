@@ -23,8 +23,10 @@ nav {
 
 }   
 
-nav #nav-1 {
-    
+nav .nav-1, .nav-2, .nav-3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
    
 }
 
@@ -137,5 +139,92 @@ p {
    
 }
 
+
+
+.carrersection {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.image-carrer {
+    background-image: url("boeing-carrers.jpg");
+    height: 300px;
+}
+
+.title-carrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cyber {
+    height: 200px;
+    width: 393px;
+}
+
+.tech {
+    height: 200px;
+    width: 393px;
+}
+
+.business-image {
+    height: 200px;
+    width: 393px;
+}
+
+.engineer-image {
+    height: 200px;
+    width: 393px;
+}
+
+.image-footer {
+    background-image: url("footerbackground.jpg");
+    height: 400px;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+}
+
+.title-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.founder {
+    margin-left: 12px;
+}
+
+.text-content {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.founder-name {
+    display: flex;
+    flex-direction: row;
+}
+
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%; 
+}
 
 
